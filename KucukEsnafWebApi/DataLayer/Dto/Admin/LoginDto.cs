@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DataLayer.Dto.Admin
 {
-    class LoginDto
+    public class LoginDto
     {
         [Required(ErrorMessage = "Mail adresi boş bırakılamaz"), EmailAddress(ErrorMessage = "Lütfen mail formatında giriniz.")]
         public string Email { get; set; }

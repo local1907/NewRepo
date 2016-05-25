@@ -12,7 +12,7 @@ namespace DataLayer.Orm.Context
     {
         public ECommerceEntities()
         {
-            Database.Connection.ConnectionString = @"server=SSD7\MSSQL2014SERVER;uid=sa;pwd=1234;database=ECommerce";
+            Database.Connection.ConnectionString = @"server=xxxxxxxx;uid=xxxxxxx;pwd=xxxxxx;database=ECommerce";
         }
         public virtual DbSet<Category> Category { get; set; }
 
